@@ -1,0 +1,33 @@
+.details-content {
+    position: relative;
+
+    .btn-back {
+        padding: 8px 16px;
+        border: 1px solid #fff;
+        border-radius: 18px;
+        &:hover{
+            background-color: #30217c;
+        }
+    }
+
+    img {
+        margin-top: -24px;
+        width: 280px;
+        height: 400px;
+        object-fit: cover;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    @media(max-width: 768px){
+        & > div {
+            display: grid !important;
+            & > div:first-child {
+                order: 1
+            }
+            & > div:last-child {
+                order: 0
+            }
+        }
+    }
+}

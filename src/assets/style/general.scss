@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'New Amsterdam';
+  src: url('../fonts/NewAmsterdam-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter.ttf');
+}
+
+@font-face {
+  font-family: 'Inter Italic';
+  src: url('../fonts/Inter-Italic.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0e0b1f;
+  border-radius: 20px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1d1b27;
+  transition: all .5s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+.new-font {
+  font-family: 'New Amsterdam';
+}
+
+.inter-italic {
+  font-family: 'Inter Italic';
+}
